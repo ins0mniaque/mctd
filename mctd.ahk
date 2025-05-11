@@ -2,7 +2,6 @@
 #SingleInstance force
 SendMode("Input")
 
-TraySetIcon("mctd.ico")
 A_IconTip := "Middle Click To Definition"
 A_TrayMenu.Delete()
 A_TrayMenu.Add("mctd 1.0", (*) => { })
